@@ -4,7 +4,7 @@
   :depends-on (#:alexandria #:iterate #:uiop)
   :components
   ((:file "package")
-   (:file "string")
-   (:file "function")
-   (:file "pathname")
-   (:file "io")))
+   (:file "string" :depends-on ("package"))
+   (:file "function" :depends-on ("package"))
+   (:file "pathname" :depends-on ("package"))
+   (:file "io" :depends-on ("package"))))
