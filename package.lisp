@@ -6,4 +6,4 @@
   (:export #:+space-character-list+ #:join-strings #:strcat #:values-reverse
 	   #:unix-path #:unix-path-as-directory #:unix-path-string
 	   #:read-stream-into-string #:read-stream-into-lines
-	   #:strip-suffix-subseq))
+	   #:strip-suffix-subseq #:subseq-displaced #:search-replace))
