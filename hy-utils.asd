@@ -7,4 +7,5 @@
    (:file "string" :depends-on ("package"))
    (:file "function" :depends-on ("package"))
    (:file "pathname" :depends-on ("package"))
-   (:file "io" :depends-on ("package"))))
+   (:file "io" :depends-on ("package"))
+   (:file "sequence" :depends-on ("package"))))

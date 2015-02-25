@@ -5,4 +5,5 @@
   (:import-from #:uiop #:strcat)
   (:export #:+space-character-list+ #:join-strings #:strcat #:values-reverse
 	   #:unix-path #:unix-path-as-directory #:unix-path-string
-	   #:read-stream-into-string #:read-stream-into-lines))
+	   #:read-stream-into-string #:read-stream-into-lines
+	   #:strip-suffix-subseq))
